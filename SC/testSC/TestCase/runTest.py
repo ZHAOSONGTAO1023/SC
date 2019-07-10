@@ -16,3 +16,4 @@ if __name__=='__main__':
     suite = unittest.defaultTestLoader.discover(base_path, pattern='test_*.py')
     # 文本的测试用例运行器, 通过这个运行器,运行suite中所有的测试用例
     unittest.TextTestRunner().run(suite)
+
