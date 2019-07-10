@@ -5,7 +5,7 @@ from time import sleep
 
 from selenium.webdriver.support.select import Select
 
-from SC.testSC.handle.IsElementExist import isElementExist
+from SC.testSC.handles.IsElementExist import isElementExist
 
 
 class Parameters:
